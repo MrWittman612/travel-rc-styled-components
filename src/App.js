@@ -1,3 +1,10 @@
+import { NavBar, Home } from './components';
+
 export default function App() {
-  return <div className='App'>hello world</div>;
+  return (
+    <>
+      <NavBar />
+      {/* <Home /> */}
+    </>
+  );
 }
